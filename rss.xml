@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[W.S. Peng 部落格 RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://wusung.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Aug 2022 16:30:25 GMT</lastBuildDate><item><title><![CDATA[Unofficial Solar-Tweaks patch for lunar client]]></title><description><![CDATA[Purpose The tutorial shows the workaround how to fix the failed Solar-Tweaks launch. This is an unofficial patch. This means that you WON’T…]]></description><link>https://wusung.github.io/2022/08/soloar-tweaks-patch/</link><guid isPermaLink="false">https://wusung.github.io/2022/08/soloar-tweaks-patch/</guid><pubDate>Fri, 12 Aug 2022 17:42:01 GMT</pubDate><content:encoded>&lt;h2&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;The tutorial shows the workaround how to fix the failed Solar-Tweaks launch. This is an unofficial patch. This means that you WON’T be granted ANY official support. Use at your own discretion.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Download &lt;a href=&quot;https://github.com/wusung/Solar-Tweaks/releases/download/v4.0.3/Solar.Tweaks.Setup.4.0.4-B_unofficial.exe&quot;&gt;unofficial patch&lt;/a&gt; installer.&lt;/li&gt;
+&lt;li&gt;Delete old solar-patcher.jar in &lt;code class=&quot;language-text&quot;&gt;%HOMEPATH%\.lunarclient\solartweaks\solar-patcher.jar&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Double click the downloaded installer in step 1.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Launching&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Before launching minecraft in Solar-Tweaks, you maybe have to login your minecraft account in Lunar client and start any version of minecraft at once.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Change ping value&lt;/code&gt; in tab &lt;em&gt;Patcher&lt;/em&gt; MUST be disabled. In this version, it cause lunar client fail to start.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f9b964491bd9e02a1ff7a433bb8d65e7/3c492/disable-change-ping-value.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.39240506329114%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACz0lEQVQozy2SWW/bRhSF9eTETixrISmKnOEikiIlLtpXp4ok23LSWhUKx0mLoq3d9iEt6gYukqII0uWff4VkPwwuZjDn4t7znVyt5hH4PpYpqfsBpUKRvb09Dg6eUDgqkj/MUygUEaZAU1TUskL+6SHlUon9vUfsP3rMk/0DTMNE13VyuqajN130z5ro0whtGqK6VeTAR4wCxCTAbFjobQ/tOKI08FD7PmXfRJ3UKQ981GmI4gt0rUJO0zSEbeGGAWm3jRvVSaQk9mv0soRulpDaFr5t0WhnDKZjbM9FOja1B009aWIIEyklue2YpilI04zb299xax6ptDCqJjfXP/J8cYKrV/EMk/nyhOvrm91/23Zw3RqLxZJmnGAYxn3DSqWCK206jYxB1iUNmiRCEqQx2aBP1O0Q+h4t2yN06wSWR8MLcYRNVo/pJZ1d3TIQUpDTigrh52Mm/3zL/NN3dD6+ZjHu8Fey4L/Zhn8nF/wU9Akvx8Tv1qS/XRD8sCRYDRh+fMP87+8ZffoGf9lDVAxyFVVDtAKcVQ9rliJXXVLf4cqosxEBr2TEue7gTJp4L4a4pz2ceRsz9Xcae97eVaNZQ5ri3kNDq9JL2rz75RanaiEtm5IwuPn1LaP5c8qmgdQF3bjF2ewESxe7FbfrX66/oulFGJXqg4d6BWEIskbC6fyEwLnPpC9rnM2WDNIutil3b1kjZdQb7vyT24auz7PxMZFXx6w+UN6GNRq2mL55yfHVSyavzvHaTcJFn/hsTPxiitePqQ1iotMh9UUf/1mboJcwulwx+/qC8dU5fidGGOYWShl71SX+c0Prjw3h3RfY8xb+2zPSuy+J3l9gr4c4WygfNsR3a7yfl9gnHRrv17TuNjQ+rJGz9B6KtCwqioZeVNEKCtpRGbWkoOSLKIdF1HwJvayyTcP2vjv5EmqxjPK0gHZU2mm0soIpJP8DI+pmk0nSiPcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image&quot;
+        title=&quot;image&quot;
+        src=&quot;/static/f9b964491bd9e02a1ff7a433bb8d65e7/f058b/disable-change-ping-value.png&quot;
+        srcset=&quot;/static/f9b964491bd9e02a1ff7a433bb8d65e7/c26ae/disable-change-ping-value.png 158w,
+/static/f9b964491bd9e02a1ff7a433bb8d65e7/6bdcf/disable-change-ping-value.png 315w,
+/static/f9b964491bd9e02a1ff7a433bb8d65e7/f058b/disable-change-ping-value.png 630w,
+/static/f9b964491bd9e02a1ff7a433bb8d65e7/40601/disable-change-ping-value.png 945w,
+/static/f9b964491bd9e02a1ff7a433bb8d65e7/78612/disable-change-ping-value.png 1260w,
+/static/f9b964491bd9e02a1ff7a433bb8d65e7/3c492/disable-change-ping-value.png 1300w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Limitation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Only for tested windows&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Change ping value&lt;/code&gt; will cause Luanr-Tweak luanch crash.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Chromium 瀏覽器內核原理（03）-使用 CLion 建立 Chromium Debug 環境]]></title><description><![CDATA[本章節介紹如何使用 JetBrains CLion Debug Chromium。 設定 CLoin 啟動 CLion，請先設定 JVM 參數，Help > Edit Custom VM Options… 使用 CLion 開啟 Chromium 匯入 Chromium…]]></description><link>https://wusung.github.io/2022/08/03-build-debug-environment/</link><guid isPermaLink="false">https://wusung.github.io/2022/08/03-build-debug-environment/</guid><pubDate>Tue, 09 Aug 2022 00:16:33 GMT</pubDate><content:encoded>&lt;p&gt;本章節介紹如何使用 &lt;a href=&quot;https://www.jetbrains.com/clion/&quot;&gt;JetBrains CLion&lt;/a&gt; Debug Chromium。&lt;/p&gt;
+&lt;h2&gt;設定 CLoin&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;啟動 CLion，請先設定 JVM 參數，Help &gt; Edit Custom VM Options…&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;-Xss2m
+-Xms1g
+-Xmx5g&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;使用 CLion 開啟 Chromium&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;匯入 Chromium
+在 File &gt; Import  選擇 chromium 目錄後，按下確認&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在根目錄下新增 CMakeLists.txt，內容如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cmake_minimum_required(VERSION 3.10)
+project(chromium)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/out/Default/gen)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/third_party/googletest/src/googletest/include)
+
+add_executable(chromium src/components/omnibox/browser/document_provider.cc)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;建置、執行或Debug Chromium&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;新增 &lt;code class=&quot;language-text&quot;&gt;custom build targets&lt;/code&gt; 設定&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;按下 &lt;code class=&quot;language-text&quot;&gt;ctrl-shift-a&lt;/code&gt; 後，輸入 custom build targets&lt;/li&gt;
+&lt;li&gt;按下 &lt;code class=&quot;language-text&quot;&gt;+&lt;/code&gt; 新增 target&lt;/li&gt;
+&lt;li&gt;按下在 &lt;code class=&quot;language-text&quot;&gt;Build&lt;/code&gt; 欄位旁邊的按鈕 &lt;code class=&quot;language-text&quot;&gt;...&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;按下在新增列上的 &lt;code class=&quot;language-text&quot;&gt;+&lt;/code&gt; 按鈕&lt;/li&gt;
+&lt;li&gt;設定欄位：
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Program: &amp;lt;absolute path to depot_tools/autoninja&gt;
+Arguments: -C src/out/Default -j 1000 chrome&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增 &lt;code class=&quot;language-text&quot;&gt;Run&lt;/code&gt; 設定&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;按下 &lt;code class=&quot;language-text&quot;&gt;ctrl-shift-a&lt;/code&gt; 後，輸入 edit configurations&lt;/li&gt;
+&lt;li&gt;Click &lt;code class=&quot;language-text&quot;&gt;+&lt;/code&gt; in the top left and select &lt;code class=&quot;language-text&quot;&gt;Custom Build Application&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Set the &lt;code class=&quot;language-text&quot;&gt;Target&lt;/code&gt; field to one of the targets configured in step 1&lt;/li&gt;
+&lt;li&gt;Click &lt;code class=&quot;language-text&quot;&gt;Select other&lt;/code&gt; option for the &lt;code class=&quot;language-text&quot;&gt;Executable&lt;/code&gt; field and select the&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;chrome build e.g. &lt;code class=&quot;language-text&quot;&gt;out/Default/chrome&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 Program Arguments 輸入 —single-process &lt;a href=&quot;https://www.google.com&quot;&gt;https://www.google.com&lt;/a&gt; (註一)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Debug Chromium，選擇 &lt;code class=&quot;language-text&quot;&gt;Run&lt;/code&gt; &gt; &lt;code class=&quot;language-text&quot;&gt;Debug&lt;/code&gt; 或使用快速鍵 &lt;code class=&quot;language-text&quot;&gt;shift+f9&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c5fcfe01ea1774e18f4a7cdd610291ec/29114/clion_gui_debugging.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.79746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABAklEQVQoz6XQ2U7DMBBAUf//z7GoBRSSVM1SO7bjJY7jxNsgFakqiKIiju7DPM4MOh7ruq7Kqjzhjg4954QxLCSTil8nJMWkJbTnI+acUI4pPSFjOjPh2ZAcFeQJwH5t/mk2ABpAoX01PBbDwxt5Kvj+oHa1vKd9rXbliKoWP79WRdW1WJyY4sqNeh21+4yr5TJ/izCNQnB+c351kCNAgr9AlLKRj0LIebbrui2Ls9YuZ8655TZrLXovXtruQFlPaScEkXJgjHHGlZJaTZMx9gatNZqmYjZlCE2MTUpNzv26+W3zMYbgY86/rp2Sz9kDhKvyvTfDP6DLA5xbtrOUUr7PBzzDdv5JGtICAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;debugging screenshot&quot;
+        title=&quot;debugging screenshot&quot;
+        src=&quot;/static/c5fcfe01ea1774e18f4a7cdd610291ec/f058b/clion_gui_debugging.png&quot;
+        srcset=&quot;/static/c5fcfe01ea1774e18f4a7cdd610291ec/c26ae/clion_gui_debugging.png 158w,
+/static/c5fcfe01ea1774e18f4a7cdd610291ec/6bdcf/clion_gui_debugging.png 315w,
+/static/c5fcfe01ea1774e18f4a7cdd610291ec/f058b/clion_gui_debugging.png 630w,
+/static/c5fcfe01ea1774e18f4a7cdd610291ec/40601/clion_gui_debugging.png 945w,
+/static/c5fcfe01ea1774e18f4a7cdd610291ec/78612/clion_gui_debugging.png 1260w,
+/static/c5fcfe01ea1774e18f4a7cdd610291ec/29114/clion_gui_debugging.png 1920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;執行 Chromium，選擇 &lt;code class=&quot;language-text&quot;&gt;Run&lt;/code&gt; &gt; &lt;code class=&quot;language-text&quot;&gt;Run&lt;/code&gt; 或使用快速鍵 &lt;code class=&quot;language-text&quot;&gt;shift+f10&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;其他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;註一：Chromium debug 參數說明&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;—single-process: 用單一個 process 啟動 Chromium，此模式 renderer worker thread 仍然 folk 新的 process&lt;/li&gt;
+&lt;li&gt;—renderer-startup-dialog: 啟動前顯示 process id，此時可以用 debug 工具 attach 此 process。Startup dialog 有其他參數可以使用，分別是 —gpu-startup-dialog, —ppapi-startup-dialog, —utility-startup-dialog, —plugin-startup-dialog (for NPAPI)。—utility-startup-dialog 可以指定使用特定 service，—utility-startup-dialog=data_decoder.mojom.DataDecoderService&lt;/li&gt;
+&lt;li&gt;—no-sandbox: Chromium 預設開啟 sandbox，如果啟用 —renderer-startup-dialog，需配合此參數使用&lt;/li&gt;
+&lt;li&gt;—wait-for-debugger-children[=filter]: Values include &lt;code class=&quot;language-text&quot;&gt;renderer&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;plugin&lt;/code&gt; (for NPAPI), &lt;code class=&quot;language-text&quot;&gt;ppapi&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;gpu-process&lt;/code&gt;, and &lt;code class=&quot;language-text&quot;&gt;utility&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;—renderer-process-limit=1: 啟用 —wait-for-debugger-children[=filter] 時，可將 process-limit 設定為 1，方便 debug。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;註二：更多的 debug 說明可參考官網文件 &lt;a href=&quot;https://www.chromium.org/developers/how-tos/debugging-on-windows/&quot;&gt;Debugging Chromium on Windows&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[2022 Java Developers Roadmap]]></title><description><![CDATA[Java 相較於其他語言雖然是個發展近 30 多年的程式語言，但並不表達開發人員不需要持續學習，2022 年的 Java Developers Roadmap 提供在不同的面向值得考慮學習的工具或框架。  參考 devoxx/JavaRoadmap2022: The 202…]]></description><link>https://wusung.github.io/2022/07/java-roadmap-2022/</link><guid isPermaLink="false">https://wusung.github.io/2022/07/java-roadmap-2022/</guid><pubDate>Fri, 22 Jul 2022 13:38:52 GMT</pubDate><content:encoded>&lt;p&gt;Java 相較於其他語言雖然是個發展近 30 多年的程式語言，但並不表達開發人員不需要持續學習，2022 年的 Java Developers Roadmap 提供在不同的面向值得考慮學習的工具或框架。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/899161381f17747dd117b27642b06a52/e1c77/java-developer-roadmap-2022.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 234.17721518987344%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAvABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB92SlcUboZFlpLRX/xAAcEAADAAIDAQAAAAAAAAAAAAAAARECIRASMUH/2gAIAQEAAQUCETl5RjVIfGdjzKi8e3qKH//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/AWP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AV//xAAcEAABAwUAAAAAAAAAAAAAAAAAARAxESBBYXH/2gAIAQEABj8CvQy0t0qSaf8A/8QAHhAAAgICAwEBAAAAAAAAAAAAAAERMSFBUXGBYZH/2gAIAQEAAT8hdxB4Lty8kt1JNaklFn8G2+/hAbjZJ00XZLyjtCrYkm0lhF3ocBCh5GCyaNGCj//aAAwDAQACAAMAAAAQIOiNrA//xAAWEQADAAAAAAAAAAAAAAAAAAAQIHH/2gAIAQMBAT8QER//xAAYEQACAwAAAAAAAAAAAAAAAAAAEBEhcf/aAAgBAgEBPxBaSWv/xAAfEAEBAAMAAgIDAAAAAAAAAAABEQAhMUGRUaFxgbH/2gAIAQEAAT8QV0g/ua1hbpuSo3r3mUNVWbxCBV8D24pMx8Ue80oHRt949CO9d9ZSvgAAM2K7YEve+sAECD2YBJSGshWrMXmvGGBaJVsn6xgAIfLcsHRETbgpwz9/nECFh5Qz/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Roadmap&quot;
+        title=&quot;Roadmap&quot;
+        src=&quot;/static/899161381f17747dd117b27642b06a52/828fb/java-developer-roadmap-2022.jpg&quot;
+        srcset=&quot;/static/899161381f17747dd117b27642b06a52/ff44c/java-developer-roadmap-2022.jpg 158w,
+/static/899161381f17747dd117b27642b06a52/a6688/java-developer-roadmap-2022.jpg 315w,
+/static/899161381f17747dd117b27642b06a52/828fb/java-developer-roadmap-2022.jpg 630w,
+/static/899161381f17747dd117b27642b06a52/0ede0/java-developer-roadmap-2022.jpg 945w,
+/static/899161381f17747dd117b27642b06a52/3ac88/java-developer-roadmap-2022.jpg 1260w,
+/static/899161381f17747dd117b27642b06a52/e1c77/java-developer-roadmap-2022.jpg 1751w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;參考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/devoxx/JavaRoadmap2022&quot;&gt;devoxx/JavaRoadmap2022: The 2022 Java Developers Roadmap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[停用 JetBrains CLion 的 tests Plugins]]></title><description><![CDATA[使用 JetBrains CLion Debug 大型專案時，CLion 在啟動時，會一直花費大量的時間執行 tests 相關的程式碼，但只是為了查看程式碼，這個行為花了大量的時間等待，本文會介紹如何停用 tests 相關的 plugins，以減少等待的時間。 打開 CLion…]]></description><link>https://wusung.github.io/2022/07/diable-clion-tests/</link><guid isPermaLink="false">https://wusung.github.io/2022/07/diable-clion-tests/</guid><pubDate>Wed, 20 Jul 2022 15:51:40 GMT</pubDate><content:encoded>&lt;p&gt;使用 JetBrains CLion Debug 大型專案時，CLion 在啟動時，會一直花費大量的時間執行 tests 相關的程式碼，但只是為了查看程式碼，這個行為花了大量的時間等待，本文會介紹如何停用 tests 相關的 plugins，以減少等待的時間。&lt;/p&gt;
+&lt;p&gt;打開 CLion Settings =&gt; Plugins，尋找 &lt;em&gt;test&lt;/em&gt; 字串，停用以下 Plugins
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/92a928be45f62625c0fab7699895da5a/0b6f4/disable-tests-plugins.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 72.15189873417721%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABhElEQVQoz42SWW7bMBBAdaNY4r4MV1kbJVuK0/YrjZGDtGhPXkhUHANtkQAPBDGYx5khWTT93I1zPz3GdnSxAeupUExqKjRYD9abevDNqK3nCrgCkVcNEkwxLM/D/OzaL6a52NhaHxVYoc0NrkCBCXXDhJIKGJeHCh8QQYQVp5efy+vv9P3X+frj/O16Wi79NLfjuU2nTD/NyrgKUy41pqLCNFMiUnRpmZav6XSpu8la57yTYBFhmPIM4WKtqQ0VGjFgUjOhGFcVpkXsliY9he5Rh1EqQxlHhK2NvVFuHZaIbPv7OC1MTBASxBFC0iZwoTBdU29UmGb5bwoTx8wme8YlYQKR98E+LwcmZB6YMLGdwj4tu1qDU2C5VIdqz0CEfSybOFKuc9nc8P3YH8uYykOF/pm3g+nOmzzdWOUSlXfvtL/KvkGHsnwo0UOJcrywcQDfZSjXmL5/jzvEGmcK60gFrF9tu84iHlsXauujDdHF2ob/4KM9Du58rdPcpzEcWx+PfwDbycJcJc+TOwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Plugins&quot;
+        title=&quot;Plugins&quot;
+        src=&quot;/static/92a928be45f62625c0fab7699895da5a/f058b/disable-tests-plugins.png&quot;
+        srcset=&quot;/static/92a928be45f62625c0fab7699895da5a/c26ae/disable-tests-plugins.png 158w,
+/static/92a928be45f62625c0fab7699895da5a/6bdcf/disable-tests-plugins.png 315w,
+/static/92a928be45f62625c0fab7699895da5a/f058b/disable-tests-plugins.png 630w,
+/static/92a928be45f62625c0fab7699895da5a/40601/disable-tests-plugins.png 945w,
+/static/92a928be45f62625c0fab7699895da5a/0b6f4/disable-tests-plugins.png 984w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Chromium Mojo & IPC]]></title><link>https://wusung.github.io/2022/07/chromium-mojo-and-ipc/</link><guid isPermaLink="false">https://wusung.github.io/2022/07/chromium-mojo-and-ipc/</guid><pubDate>Thu, 14 Jul 2022 11:46:30 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[CloudFlare CDN 與 GCP Load Balancer 設定教學]]></title><description><![CDATA[在多數的情境下，使用 GCP 做為網頁伺服器時，都會使用 GCP 的 CDN 解決方案，但當遇到動態網頁或是其他非靜態網頁時，GCP 的 CDN 並不支援這一類的方式的快取；此時就可以使用 CloudFlare 做為 CDN…]]></description><link>https://wusung.github.io/2022/07/cloud-flare-gcp-load-balancer/</link><guid isPermaLink="false">https://wusung.github.io/2022/07/cloud-flare-gcp-load-balancer/</guid><pubDate>Wed, 13 Jul 2022 11:46:30 GMT</pubDate><content:encoded>&lt;p&gt;在多數的情境下，使用 GCP 做為網頁伺服器時，都會使用 GCP 的 CDN 解決方案，但當遇到動態網頁或是其他非靜態網頁時，GCP 的 CDN 並不支援這一類的方式的快取；此時就可以使用 CloudFlare 做為 CDN，使用此方式需注意內容如果有變更，需在 CloudFlare console 或是以 API purch CDN cache。&lt;/p&gt;
+&lt;h2&gt;GCP 設定 HTTP(S) Load Balancer&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;建立一台 VM&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;建立 &lt;a href=&quot;https://console.cloud.google.com/compute/instanceGroups/add&quot;&gt;Instance Group&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增 &lt;a href=&quot;https://console.cloud.google.com/net-services/loadbalancing/add&quot;&gt;HTTP(S) Load Balancer&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;選擇 HTTP(S) Load Balancer &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7b776fbac0da94aaf41e5f906f8c7c54/460fa/gcp-add-load-balancer.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.78481012658228%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnUlEQVQY00XPWQ7DIAwEUO5/1EpNiCngbeyKLO0TXxYaj8vrTa0zixIdRC0WXNzdzOLhJzMDkBEsXvqQiDSzT1tYRNTPgNj3ehDpzYDovddamdnU1LyMOTJzzrlt25W6gjPdnYgy866BtZyIri7AeqU1Wg3NiZqZ5QPAXg8W/U0iYozJLL9JEZZ1CjDF1fzZAwf6kMmKP1f1yY7n1xd06iWFvGoSvwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GCP Load Balancer&quot;
+        title=&quot;GCP Load Balancer&quot;
+        src=&quot;/static/7b776fbac0da94aaf41e5f906f8c7c54/f058b/gcp-add-load-balancer.png&quot;
+        srcset=&quot;/static/7b776fbac0da94aaf41e5f906f8c7c54/c26ae/gcp-add-load-balancer.png 158w,
+/static/7b776fbac0da94aaf41e5f906f8c7c54/6bdcf/gcp-add-load-balancer.png 315w,
+/static/7b776fbac0da94aaf41e5f906f8c7c54/f058b/gcp-add-load-balancer.png 630w,
+/static/7b776fbac0da94aaf41e5f906f8c7c54/40601/gcp-add-load-balancer.png 945w,
+/static/7b776fbac0da94aaf41e5f906f8c7c54/78612/gcp-add-load-balancer.png 1260w,
+/static/7b776fbac0da94aaf41e5f906f8c7c54/460fa/gcp-add-load-balancer.png 1910w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;依需求選擇，此次選擇 Regional HTTP(S) Load Balancer &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/97a88cf0aa2744b87cf3c14787cb20a5/ae77d/gcp-add-load-balancer-02.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.56962025316456%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABAElEQVQoz42RQU7EMAxFe/+LcAlWnIAFgu20tEnTdFrHTZvYSWrUGZAQKoi3sayvZ33JVW/GYQQ7gkNPKW9bBIBpmgCAiPiLfEYFPl+BnM8xSeSyLEiREjNRZOZ0I+ckZ1RMhA6IooiUUgYzaKV702vdIyIzxU9CKeWnnHJGxEgkIimXTpn2/aBpmrputFJ+WUII27adyMyMiN77u2yM1VpZa9d1RYcpZfmdKsboHCDirXZWXXe51G3bDtb6ZYkhHKdXv+/7iUxMR6t1I6Jcdgezm0djjNbq5fWtbjsROTUP+T7uaeTy8GienifZj0/Y62yn+a/a35dS9taShST/4wPe5Aq2fRSwJAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GCP Load Balancer&quot;
+        title=&quot;GCP Load Balancer&quot;
+        src=&quot;/static/97a88cf0aa2744b87cf3c14787cb20a5/f058b/gcp-add-load-balancer-02.png&quot;
+        srcset=&quot;/static/97a88cf0aa2744b87cf3c14787cb20a5/c26ae/gcp-add-load-balancer-02.png 158w,
+/static/97a88cf0aa2744b87cf3c14787cb20a5/6bdcf/gcp-add-load-balancer-02.png 315w,
+/static/97a88cf0aa2744b87cf3c14787cb20a5/f058b/gcp-add-load-balancer-02.png 630w,
+/static/97a88cf0aa2744b87cf3c14787cb20a5/40601/gcp-add-load-balancer-02.png 945w,
+/static/97a88cf0aa2744b87cf3c14787cb20a5/ae77d/gcp-add-load-balancer-02.png 1111w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設定 Load Balancer Front IP 與對內網路 &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b6750959aa74b50bf6d0bcbba3541e60/4352a/gcp-save-load-balancer.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.39240506329114%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABNElEQVQoz42SC27DIAyGe/877Qg7R5eIJuFl/GYidGsrTVo/EELAb/+2uIS93A7YY0PS/YhHjLmUUmuMKZ+kNDZm5u72yiUV2mNldbW+bXuM0cx774hIRMuyXK9fy7KkEwBAov7DhQhzju4jcLiFCpWZhTnnhISttXqChCLiPuLOdYhFBABU1d33mEuFUqDUBo2YNcYjhJBSYhYzN/PWkJnvYqh12zZsTayvW1vDHvbc2FF6I4PGDWVmm8w0d7Gqykl3jzGu61pruV+7327HkcrwoDYnAIzHU/xbvbuf1Y5hZuPEPKU0CkZ8bvIj87O4v+LuOWdiUTURFVEVZRou3hKXUhDJ1KdnESOS6et/sZrLqZkQG7POj/BoWP8TdySFpkjmrzw+CQC4map/fKZrqN21v8c3JibAKj7T75gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GCP Create Load Balancer&quot;
+        title=&quot;GCP Create Load Balancer&quot;
+        src=&quot;/static/b6750959aa74b50bf6d0bcbba3541e60/f058b/gcp-save-load-balancer.png&quot;
+        srcset=&quot;/static/b6750959aa74b50bf6d0bcbba3541e60/c26ae/gcp-save-load-balancer.png 158w,
+/static/b6750959aa74b50bf6d0bcbba3541e60/6bdcf/gcp-save-load-balancer.png 315w,
+/static/b6750959aa74b50bf6d0bcbba3541e60/f058b/gcp-save-load-balancer.png 630w,
+/static/b6750959aa74b50bf6d0bcbba3541e60/40601/gcp-save-load-balancer.png 945w,
+/static/b6750959aa74b50bf6d0bcbba3541e60/78612/gcp-save-load-balancer.png 1260w,
+/static/b6750959aa74b50bf6d0bcbba3541e60/4352a/gcp-save-load-balancer.png 1364w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設定 Backend Service&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Backend service 的 Instance Group 選擇前一步驟所設定的 &lt;code class=&quot;language-text&quot;&gt;load-balancer-lab&lt;/code&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0f0e96fd68be7ecbfd7925217bc55b1f/c8ad9/gcp-load-balancer-backed.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABbklEQVQoz3WRy07rMBCG+/hsz7pSaezY4xlfiniFszgLThvUbnkCEEVNkzgXp0F2S0Egvo03/vX9MzNbZjnPRZbFh3POGAMARCQiZ60Q4rEo2rb13o/jGBJ933ddN03TTCExzqQEa63WWinFGJ/PFxnjRHqZZZui6Puha9sxEUIYEjGsiXiynZNCCCGVkAoUAeDilj08/K+qqkt477s+MoQQwxjNgnEuhEBETRqRJJBC45wDgKIoxhCFVR0ZQmiapq7rS20u1GLJBCBpB8ooRAAEUIiUZWyz2Vx7TtN0Op1CCOM4xrAxZr7IGcsR0RhjrTUfWGullOv1+ng8Nk1zXVhIndPMxtz8yXOhbPr9FeeclHK73Xrv96+vh0RZlofD4ZyfWWvv75xz9ier1UpKudvt0rD19MEpcan9Q/nd/Pz8UpblMAxp0/HIl5m11vYXPs3VsfX+6vw0E9FvYeccKvj773H39Lbf78+Br83fAfMcDJdTUZbXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GCP Load Balancer Backend&quot;
+        title=&quot;GCP Load Balancer Backend&quot;
+        src=&quot;/static/0f0e96fd68be7ecbfd7925217bc55b1f/f058b/gcp-load-balancer-backed.png&quot;
+        srcset=&quot;/static/0f0e96fd68be7ecbfd7925217bc55b1f/c26ae/gcp-load-balancer-backed.png 158w,
+/static/0f0e96fd68be7ecbfd7925217bc55b1f/6bdcf/gcp-load-balancer-backed.png 315w,
+/static/0f0e96fd68be7ecbfd7925217bc55b1f/f058b/gcp-load-balancer-backed.png 630w,
+/static/0f0e96fd68be7ecbfd7925217bc55b1f/40601/gcp-load-balancer-backed.png 945w,
+/static/0f0e96fd68be7ecbfd7925217bc55b1f/78612/gcp-load-balancer-backed.png 1260w,
+/static/0f0e96fd68be7ecbfd7925217bc55b1f/c8ad9/gcp-load-balancer-backed.png 1564w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Health Check 如果已有 http 80，可直接使用，如果沒有，可自行建一個&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按下 Create 按鈕完成建立 Load Balancer&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;CloudFlare 設定 DNS 與 CDN&lt;/h2&gt;
+&lt;p&gt;新增 DNS Record A，IP Address 設定為 GCP Load Balancer 的 IP Adress。
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/48a773ea0f4a39802c91adaa90c2c64f/9efb3/cloudflare-cdn-record-a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30.37974683544304%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAwUlEQVQY022QwU4DMQxE9/9/q0ckDj1x4AhS26VsIHYSz8QJ2g3tglRfbNnyjJ+n5fxWJPTee2t9pN/iX4weSQAkzYzklOHV9wWSMUZ3J+m+Ddpjud77dAlFEqyu6sP3O0ZVVREAwxRs8xdIvF/tHLAvRzUCfpN2d1FR1VJKSilGIew0h6eX+fP6cTienl+XO8WkGeO8G1vLOYcliIiZpZTIihxbXSFbGyx357RB951qO1m2l6DWyjUqsL4KoP/h/wHrOl/KQz06HwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;CloudFlare CDN&quot;
+        title=&quot;CloudFlare CDN&quot;
+        src=&quot;/static/48a773ea0f4a39802c91adaa90c2c64f/f058b/cloudflare-cdn-record-a.png&quot;
+        srcset=&quot;/static/48a773ea0f4a39802c91adaa90c2c64f/c26ae/cloudflare-cdn-record-a.png 158w,
+/static/48a773ea0f4a39802c91adaa90c2c64f/6bdcf/cloudflare-cdn-record-a.png 315w,
+/static/48a773ea0f4a39802c91adaa90c2c64f/f058b/cloudflare-cdn-record-a.png 630w,
+/static/48a773ea0f4a39802c91adaa90c2c64f/40601/cloudflare-cdn-record-a.png 945w,
+/static/48a773ea0f4a39802c91adaa90c2c64f/78612/cloudflare-cdn-record-a.png 1260w,
+/static/48a773ea0f4a39802c91adaa90c2c64f/9efb3/cloudflare-cdn-record-a.png 1894w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.google.com/load-balancing/docs/https&quot;&gt;External HTTP(S) Load Balancing overview  |  Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.cloud-ace.tw/networking-website/load-balance/gcp-https-load-balancer/&quot;&gt;GCP HTTP(S) Load Balancer 負載平衡依網址分流教學 - Cloud Ace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.google.com/cdn/docs/caching#non-cacheable_content&quot;&gt;Caching overview  |  Cloud CDN  |  Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Chromium 瀏覽器內核原理（02）-取得與編譯程式碼]]></title><description><![CDATA[本章介紹如何下載與編譯 Chromium 程式碼 系統需求 A 64-bit Intel/AMD machine with at least 8GB of RAM. More than 16GB is highly recommended. At least 100GB of…]]></description><link>https://wusung.github.io/2022/05/02-get-and-compile-code-windows/</link><guid isPermaLink="false">https://wusung.github.io/2022/05/02-get-and-compile-code-windows/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;本章介紹如何下載與編譯 Chromium 程式碼&lt;/p&gt;
+&lt;h2&gt;系統需求&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A 64-bit Intel/AMD machine with at least 8GB of RAM. More than 16GB is highly recommended.&lt;/li&gt;
+&lt;li&gt;At least 100GB of free disk space on an NTFS-formatted hard drive. FAT32 will not work, as some of the Git packfiles are larger than 4GB.&lt;/li&gt;
+&lt;li&gt;An appropriate version of Visual Studio, as described below.&lt;/li&gt;
+&lt;li&gt;Windows 10 or 更新版本的 Windows .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;設定 Windows 建置環境&lt;/h2&gt;
+&lt;h3&gt;Visual Studio&lt;/h3&gt;
+&lt;p&gt;本文章使用 Visual Studio 2022，請先安裝以下元件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Desktop development with C++
+&lt;ul&gt;
+&lt;li&gt;MFC/ATL support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;10.0.20348.0 Windows 10 SDK&lt;/li&gt;
+&lt;li&gt;Debugging Tools For Windows&lt;/li&gt;
+&lt;li&gt;Python3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;安裝 &lt;a href=&quot;https://storage.googleapis.com/chrome-infra/depot_tools.zip&quot;&gt;depot_tools&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;將 dept_tools.zip 解壓縮到 c:\src\dept_tools ，並且加到環境變數 PATH。增加以下兩個變數 SET &lt;code class=&quot;language-text&quot;&gt;DEPOT_TOOLS_WIN_TOOLCHAIN=0&lt;/code&gt;，與視情況設定 Visual Studio 所在路徑 &lt;code class=&quot;language-text&quot;&gt;vs2017_install&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;vs2019_install&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;vs2022_install&lt;/code&gt; to your installation path of Visual Studio 2017 or 19 or 22, like set vs2019_install=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional for Visual Studio 2019, or set vs2022_install=C:\Program Files\Microsoft Visual Studio\2022\Professional for Visual Studio 2022.&lt;/p&gt;
+&lt;p&gt;第一次需先執行 gclient ，gclient 會自動下載安裝 python 等相關必要的 binary。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ gclient&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;取得程式碼&lt;/h2&gt;
+&lt;p&gt;建立工作目錄&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; ~/chromium &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; ~/chromium&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;執行 fetch 取得程式碼。 fetch 是 depot_tool 提供的工具，若出現 command not found，請重新安裝 depot_tools。並確認 python3 有安裝正確並且是可正確執行的。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ fetch chromium&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;如果不需要 git history 可用 —no-history 減少下載的時間。在快的網路環境大約需要 30 分鐘下載程式碼，在慢的網路環境大約要數個小時。&lt;/p&gt;
+&lt;p&gt;下載成功後，可以看到 .gclient 檔案與 src 目錄，切換到 src 目錄&lt;/p&gt;
+&lt;h3&gt;建置工具&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ gn gen out\Default&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;編譯程式碼&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ autoninja -C out\Default chrome&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;執行 Chromium&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ out\Default\Chrome&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;建置指定版本的 Chromium&lt;/h2&gt;
+&lt;h3&gt;簽出指定版本&lt;/h3&gt;
+&lt;p&gt;如果需要編譯指定版本的 Chromium，可用 git tag 或用 &lt;a href=&quot;https://omahaproxy.appspot.com/&quot;&gt;線上&lt;/a&gt; 查詢版本後，使用 git checkout -b 取得該版本的 Chromium 進行編譯。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ git checkout -b develop 102.0.5005.125&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;建置工具&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ gn gen out\Default&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;編譯程式碼&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ autoninja -C out\Default chrome&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Chromium 瀏覽器內核原理（01）-組成簡介]]></title><description><![CDATA[在開始了解 Chromium 瀏覽器程式碼前，要先清楚 Chrome 瀏覽器與 Chromium 瀏覽器的差別，Chromium 專案是 Google 為了開發 Chrome 瀏覽器而產生的一個開源專案，它的版本往往會比起 Chome 領先，功能上面亦和 Chrome…]]></description><link>https://wusung.github.io/2022/05/01-introduction/</link><guid isPermaLink="false">https://wusung.github.io/2022/05/01-introduction/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;在開始了解 Chromium 瀏覽器程式碼前，要先清楚 Chrome 瀏覽器與 Chromium 瀏覽器的差別，Chromium 專案是 Google 為了開發 Chrome 瀏覽器而產生的一個開源專案，它的版本往往會比起 Chome 領先，功能上面亦和 Chrome 稍有不同，只有這個計劃是基於 BSD 條款開源，Chrome 可是不容許被修改再發佈的。2021 以前的 Chromium 擁有所有的 Chrome 的功能，但 Google 逐漸的移除 Google 相關的服務。&lt;/p&gt;
+&lt;p&gt;2013 以前的 Chromium 瀏覽器使用的內核程式碼來自開源瀏覽器引擎 WebKit Open Source Project。Chromium 的程式碼，同樣亦是開源的。在 Google 的中國官方 Blog － Google 黑板報中，提到：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Google 一直是開源計劃的堅定支持者，我們的工程師與全球其他的技術社區一起，為無數專案做出了貢獻。
+不過，在我們為全球專案貢獻力量的同時，我們也開始討論我們認為會真正有益於用戶的瀏覽器技術的革新。為了達成瀏覽器的技術革新，有些時候我們不得不從零開始，最終，我們開發了 Chrome 瀏覽器。我們的產品集合了我們的最新開發成果——例如多執行緒 JavaScript 引擎 V8，它的一些組成部分是由其他開源專案開發完成，這些專案包括 Apple’s WebKit 和 Mozilla’s Firefox。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Chromium 程式碼早已公布了，有興趣的軟體開發人員可以從 &lt;a href=&quot;https://chromium.googlesource.com&quot;&gt;https://chromium.googlesource.com&lt;/a&gt; 伺服器取得 Chromium 程式碼，自行定義編譯自己的瀏覽器。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Chromium 程式碼 GIT 地址：&lt;a href=&quot;https://chromium.googlesource.com/chromium/src/&quot;&gt;https://chromium.googlesource.com/chromium/src/&lt;/a&gt; 。包含有 Chrome、Gears、Webkit、GCC 等程式碼以及編譯依賴工具。Chromium 瀏覽器專案的程式碼，位於目錄 &lt;a href=&quot;https://source.chromium.org/chromium/chromium/src&quot;&gt;https://source.chromium.org/chromium/chromium/src&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chromium 程式碼 Web 瀏覽地址：&lt;a href=&quot;https://source.chromium.org/chromium/chromium/src&quot;&gt;https://source.chromium.org/chromium/chromium/src&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chromium 所使用的 JavaScript V8 的程式碼下載地址：&lt;a href=&quot;https://chromium.googlesource.com/v8/&quot;&gt;https://chromium.googlesource.com/v8/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;瀏覽器的組成&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;使用者介面
+包含網圵列、返回/前退按鈕、書籤目錄等，畫面所有可視的元件都是此模組處理&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;瀏覽器引擎
+用來接受操作渲染引擎的介面&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;渲染引擎
+用於顯示請求的內容，例如 html 負責解析後 html 與 css，並將解析後的結果顯示在畫面上&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Net
+用來完成網路相關的操作，例如 http 請求，具有與平台無關的介面，可在不同的平台上工作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JavaScript 直譯器
+用來解譯執行 JavaScript 程式碼&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;儲存資料
+持久層，瀏覽器需要在硬碟儲存 cookie、web storage、local storage 等客戶端的儲存機制&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;排版引擎&lt;/h3&gt;
+&lt;p&gt;現今瀏覽器的排版引擎，基本上是三分天下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trident: IE 以 Trident 作為排版引擎，最後一代的 IE12 已於 2022/6/15 停止更新。&lt;/li&gt;
+&lt;li&gt;Gecko: Firefox 是基於 Gecko 開發。&lt;/li&gt;
+&lt;li&gt;WebKit: Safari, Chromium 基於 Webkit 開發。WebKit 內核在手機上的應用十分廣泛，例如 Google 的手機 Gphone、 Apple 的 iPhone, Nokia’s Series 60 browser 等所使用的 Browser 排版引擎，都是基於 WebKit。Blink: 2013 年 Google 與 Opera 合作推出 Blink 排版引擎取代 WebKit。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;WebKit Open Source Project 排版引擎的前世今生&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;WebKit 的前身是 KDE 小組的 KHTML。Apple 將 KHTML 發揚光大，推出了裝備 KHTML 改進型的 WebKit 引擎的瀏覽器 Safari，獲得了非常好的反響。WebKit 引擎比 Gecko 引擎更受開發人員歡迎的原因，除了其引擎的高效穩定，兼容性好外，其程式碼結構清晰，易於維護，是一個重要的原因.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面是 WIKI 關於 Blink 排版引擎的介紹：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blink 排版引擎是一個由 Google 主導開發的開源瀏覽器排版引擎，Google 計劃將這個 Blink 引擎作為 Chromium 計劃的一部分。其代碼貢獻來自 Google、Facebook、Microsoft、Opera Software、Adobe Systems、Intel、IBM、Samsung 等。它於 2013 年 4 月首次發表。基於 Blink 排版引擎的 Chromium 的程式碼也是公開的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Blink 程式碼，可從 &lt;a href=&quot;https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/&quot;&gt;https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/&lt;/a&gt; 下載。&lt;/p&gt;
+&lt;h3&gt;參考資料&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://china.googleblog.com/2008/09/google-chrome-chromium_3768.html&quot;&gt;Google 黑板报: 谷歌浏览器（Google Chrome）, Chromium 以及竞争&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>

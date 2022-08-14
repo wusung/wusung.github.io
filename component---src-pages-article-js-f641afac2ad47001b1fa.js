@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[197],{3383:function(e,t,l){l.r(t);var a=l(7294),n=l(8678),r=l(262);l(1597);t.default=function(e){e.data;var t=e.location;return a.createElement(n.Z,{location:t,title:"文章"},a.createElement(r.Z,{title:"文章"}),a.createElement("ul",null,a.createElement("li",null,a.createElement("a",{href:"#"},"Chromium 瀏覽器內核原理"))),a.createElement("ol",{style:{listStyle:"none"}}))}}}]);
+//# sourceMappingURL=component---src-pages-article-js-f641afac2ad47001b1fa.js.map
